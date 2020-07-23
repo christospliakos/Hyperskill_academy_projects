@@ -25,15 +25,8 @@ So this is about a credit calculator that works from a command window through ar
 - Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
 - For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
 
-**Recordit**
 
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
-
-**ttystudio**
-
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
-
----
+<img href="https://imgur.com/7DxPxd4" src="https://imgur.com/7DxPxd4" title="Demonstration">
 
 ## Table of Contents (Optional)
 
