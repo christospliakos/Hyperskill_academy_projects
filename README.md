@@ -7,32 +7,15 @@ So this is about a credit calculator that works from a command window through ar
 
 > credit_calculator,annuity,hyperskill,jetbrains,argparse,args,sys,parser,principal,interest
 
-***INSERT ANOTHER GRAPHIC HERE***
+> Gifs and pictures are from Hyperskill's academy. I do not own them.
 
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
-
-- Most people will glance at your `README`, *maybe* star it, and leave
-- Ergo, people should understand instantly what your project is about based on your repo
-
-> Tips
-
-- HAVE WHITE SPACE
-- MAKE IT PRETTY
-- GIFS ARE REALLY COOL
-
-> GIF Tools
-
-- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
-- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
-
+# Below is an example of the script's usage.
 
 ![Demonstration](https://media.giphy.com/media/QXaktIFtVh9ugJ31iA/giphy.gif)
 
-## Table of Contents (Optional)
+## Table of Contents 
 
-> If your `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
+- [Description](#Credit Calculator)
 - [Features](#features)
 - [Contributing](#contributing)
 - [Team](#team)
