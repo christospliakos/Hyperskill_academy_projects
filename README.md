@@ -1,5 +1,3 @@
-<img href="https://snipboard.io/sap4tg.jpg" src="https://snipboard.io/sap4tg.jpg" title="Credit Calculator">
-
 # Crecit Calculator
 
 > This credit calculator is a HyperSkill Academy project. Quoting from their site "Finance is an important part of the life of any people. Sometimes you think about getting additional income and want to open a deposit account. And sometimes you need additional money right now and want to take a credit or mortgage. Anyway, you may want to calculate different financial indicators to make a decision. Let’s make such an instrument that can help us."
@@ -9,119 +7,45 @@ So this is about a credit calculator that works from a command window through ar
 
 > Gifs and pictures are from Hyperskill's academy. I do not own them.
 
-# Below is an example of the script's usage.
+## Below is an example of the script's usage.
 
 ![Demonstration](https://media.giphy.com/media/QXaktIFtVh9ugJ31iA/giphy.gif)
 
-## Table of Contents 
+## Example
 
-- [Description](#Credit Calculator)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
-
+```python
+# python credit_calc.py --type=diff --principal=500000 --periods=60 --interest=10
 ---
-
-## Example (Optional)
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
 ```
-
----
-
-## Installation
-
-- All the `code` required to get started
-- Images of what it should look like
-
-### Clone
-
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
 
 ### Setup
 
-- If you want more syntax highlighting, format your code like this:
+- You need to import the "argparse" module. (Included in the code)
 
-> update and install this package first
-
-```shell
-$ brew update
-$ brew install fvcproductions
-```
-
-> now install npm and bower packages
-
-```shell
-$ npm install
-$ bower install
-```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
-
----
 
 ## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
 
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
-
----
-
-## Contributing
-
-> To get started...
-
-### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
-
-### Step 2
-
-- **HACK AWAY!** 🔨🔨🔨
-
-### Step 3
-
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
-
----
-
-## Team
-
-> Or Contributors/People
-
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
-| :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
-
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
-
----
+The script displays errors at the following situations:
+- You cannot enter negative values.
+- You must always input 4 variables (including type)
+- You must always input interest. The script can not calculate it.
+- Differentiated payments doesn't require a "monthly payment". So this input combination will yield to an error.
+- Annuity payments must have 3 variables known and 1 unknown. It could be either principal, periods of payment, monthly payment.
 
 ## FAQ
 
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
+- **What types does the script support?**
+    - It supports "--type=diff" and "--type=annuity". If you enter anything else (or leave it blank) it will print an error.
+    
+- **How many variables do I have to input?**
+    - You must always input 4 variables (including type). Anything else will yield to an error.
+
+- **Can you explain the variables?**
+    - Later one I will add a "helpme" but for now:
+      -- Periods = Months that you are willing to pay for this principal
+      -- Principal = the amount of money that you have to repay.
+      -- Interest = Annual interest of your bank (insert it in decimal. example: 2% interest: --interest=2)
+      -- Payment = Monthly payment that you are willing to pay.
 
 ---
 
