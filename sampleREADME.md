@@ -26,7 +26,7 @@ So this is about a credit calculator that works from a command window through ar
 - For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
 
 
-![Demonstration](https://imgur.com/7DxPxd4)
+![Demonstration](https://media.giphy.com/media/QXaktIFtVh9ugJ31iA/giphy.gif)
 
 ## Table of Contents (Optional)
 
