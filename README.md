@@ -41,11 +41,11 @@ The script displays errors at the following situations:
     - You must always input 4 variables (including type). Anything else will yield to an error.
 
 - **Can you explain the variables?**
-    - Later one I will add a "helpme" but for now:
-      -- Periods = Months that you are willing to pay for this principal
-      -- Principal = the amount of money that you have to repay.
-      -- Interest = Annual interest of your bank (insert it in decimal. example: 2% interest: --interest=2)
-      -- Payment = Monthly payment that you are willing to pay.
+    Later one I will add a "helpme" but for now:
+     - Periods = Months that you are willing to pay for this principal
+     - Principal = the amount of money that you have to repay.
+     - Interest = Annual interest of your bank (insert it in decimal. example: 2% interest: --interest=2)
+     - Payment = Monthly payment that you are willing to pay.
 
 ---
 
