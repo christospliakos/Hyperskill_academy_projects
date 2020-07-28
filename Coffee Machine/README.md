@@ -27,7 +27,7 @@ From HyperSkill academy : ```What can be better than a cup of coffee during a br
 
 The coffee machine has the following features:
 - It has a menu that asks you the following:
-    -- Buy coffee / Fill the machine with ingredients / Take the money / See the remaining ingredients / exit the menu.
+    - Buy coffee / Fill the machine with ingredients / Take the money / See the remaining ingredients / exit the menu.
 - If you select the buy feature it shows 3 different options of coffee: Espresso / Latte / cappuccino.
 - If the machine has enough ingredients it makes you a coffee, if not it displays a message about the missing ingredient.
 - You can fill the machine with the ingredients of your desire. It shows you a message about the amount that you want to fill.
