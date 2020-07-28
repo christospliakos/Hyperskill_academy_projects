@@ -1,19 +1,20 @@
-# Tic Tac Toe
+# Coffee Machine
 
-> This project was the first that I implemented. It is under the category "easy" but it teaches you a lot about python, especially if you are a beginner.From the HyperSkill academy: ``` Everybody remembers this paper-and-pencil game from childhood: Tic-Tac-Toe, also known as Noughts and crosses or Xs and Os. A single mistake usually costs you the game, but thankfully it is simple enough that most players discover the best strategy quickly. Let’s program Tic-Tac-Toe and get playing! After finishing this project, you'll get to know a lot about planning and developing a complex program from scratch, using functions, handling errors, and processing user input.```
+> Projects that simulate how real world machines work are the best opportunity for someone to learn how to code efficiently. This project is about the implementation of a coffee machine program. You can choose to buy a coffee (3 options), to fill the machine with ingredients and to take the money of it (yes I know, its not safe now.Anyone can take the money at this point). 
+From HyperSkill academy : ```What can be better than a cup of coffee during a break? A coffee that you don’t have to make yourself. It’s enough to press a couple of buttons on the machine and you get a cup of energy; but first, we should teach the machine how to do it. In this project, you will work on programming a coffee machine simulator. The machine works with typical products: coffee, milk, sugar, and plastic cups; if it runs out of something, it shows a notification. You can get three types of coffee: espresso, cappuccino, and latte. Since nothing’s for free, it also collects the money. This project allows you to get a taste of Python. Practice working with functions, challenge yourself with loops and conditions, and get more confident in Python. ```
 
-> Tags: tic tac toe, hyperskill, academy,jetbrains, python game,strategy, python functions, handling error, user inputs
+> Tags: coffee machine, hyperskill, pycharm, python3, automation, jetbrain, project
 
 > Gifs and pictures are from Hyperskill's academy. I do not own them.
 
 ## Below is an example of the script's usage.
 
-![Demonstration](https://media.giphy.com/media/XGaVqhYfZUGMu8t4tN/giphy.gif)
+- TO BE ADDED
 
 ## Example
 
 ```python
-# You just insert the coordinates. The X starts always first. The coordinates must be at this format: 1 1, 1 2. With the 1 1 being the cell at the left bottom corner.
+# There is handy menu asking about your inputs. You just type in the number/word of your desired input!
 ---
 ```
 
@@ -24,20 +25,24 @@
 
 ## Features
 
-The script provides the normal features of a tic tac toe game:
-- 2 players can play 
-- The script understands if a cell is occupied and provides the appropriate message.
-- The script terminates the game when a winner is found and displays a message.
-- Also it can find out if there is a draw (typicall outcome of this game).
+The coffee machine has the following features:
+- It has a menu that asks you the following:
+    -- Buy coffee / Fill the machine with ingredients / Take the money / See the remaining ingredients / exit the menu.
+- If you select the buy feature it shows 3 different options of coffee: Espresso / Latte / cappuccino.
+- If the machine has enough ingredients it makes you a coffee, if not it displays a message about the missing ingredient.
+- You can fill the machine with the ingredients of your desire. It shows you a message about the amount that you want to fill.
+- You can take the money that is stored inside the machine (it starts with 500$).
 
 ## FAQ
 
-- **How can 2 people play this game?**
-    - You can upload the script to an online python compiles like "replit" and invite your friend or you can play it from one PC.
+- **How is the script implemented?**
+    - At this project hyperskill encourages you to start working with classes. We implemented a class "Coffee_machine" with which you can create objects (many coffee machines).
     
-- **How many variables do I have to input?**
-    - You must input everytime the coordinates of the cell you are willing to put a symbol. 1 1 is the cell at the left bottom corner.
-
+- **How can you secure that nobody else takes the money?**
+    - Right now the program doesnt take care of it. In the future we can add a pin code and username while creating the coffee machine object, and it will ask for them when you select the "take" feature.
+    
+ - **Can you store infinite ingredients in the machine?**
+    - Currently yes. There is no upper limit but it can be added easily.
 ---
 
 ## License
