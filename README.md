@@ -8,7 +8,7 @@
 
 ## A brief description for the Python Developer track from Hyperskill:
 
-!(https://snipboard.io/JOwohg.jpg)
+![Python Developer](https://snipboard.io/JOwohg.jpg)
 
 ## Example
 
