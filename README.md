@@ -10,42 +10,36 @@
 
 ![Python Developer](https://snipboard.io/JOwohg.jpg)
 
-## Example
-
-```python
-# python credit_calc.py --type=diff --principal=500000 --periods=60 --interest=10
----
-```
-
-### Setup
-
-- You need to import the "argparse" module. (Included in the code)
-
-
 ## Features
 
-The script displays errors at the following situations:
-- You cannot enter negative values.
-- You must always input 4 variables (including type)
-- You must always input interest. The script can not calculate it.
-- Differentiated payments doesn't require a "monthly payment". So this input combination will yield to an error.
-- Annuity payments must have 3 variables known and 1 unknown. It could be either principal, periods of payment, monthly payment.
+Inside this repository I will add all the projects that I completed successfully throughout my journey with hyperskill. Some of the things that we will see are:
+- SQL usage, learning how to manipulate databases.
+- Using math libraries like numpy.
+- Use of Django for web development.
+- Implementation of html/css/javascript with python.
+- Real life problems (obviously at a simpler approach) 
 
 ## FAQ
 
-- **What types does the script support?**
-    - It supports "--type=diff" and "--type=annuity". If you enter anything else (or leave it blank) it will print an error.
+- **Is hyperskill academy free?**
+    - Hyperskill launched during Spring at 2020 and it was free till June 2020. If you've registered till then you would get a free trial until 1st of January 2021. For now if you want to try it for 3 months (free) you can ask me for a referral link.
     
-- **How many variables do I have to input?**
-    - You must always input 4 variables (including type). Anything else will yield to an error.
+- **How much will it cost?**
+    - The subscription right now is 25$ per month, and after January 1st it will be 50$ per month.
 
-- **Can you explain the variables?**
-    Later one I will add a "helpme" but for now:
-     - Periods = Months that you are willing to pay for this principal
-     - Principal = the amount of money that you have to repay.
-     - Interest = Annual interest of your bank (insert it in decimal. example: 2% interest: --interest=2)
-     - Payment = Monthly payment that you are willing to pay.
-
+- **What other tracks does hyperskill academy offers?**
+    Right now it offers:
+    - Python Developer
+    - Java Developer
+    - Kotlin Developer (Android apps) and
+    - Web developer (pretty beta state right now with only 2 projects).
+    
+- **How can you select a project?**
+    Projects are categorized in 4 categories:
+    - Easy
+    - Medium
+    - Hard
+    - Challenging
 ---
 
 ## Support
