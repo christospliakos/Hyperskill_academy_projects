@@ -1,66 +1,42 @@
-# Crecit Calculator
+# Tic Tac Toe
 
-> This credit calculator is a HyperSkill Academy project. Quoting from their site "Finance is an important part of the life of any people. Sometimes you think about getting additional income and want to open a deposit account. And sometimes you need additional money right now and want to take a credit or mortgage. Anyway, you may want to calculate different financial indicators to make a decision. Let’s make such an instrument that can help us."
-So this is about a credit calculator that works from a command window through argparse and can calculate annual payments and differentiated payments.
+> This project was the first that I implemented. It is under the category "easy" but it teaches you a lot about python, especially if you are a beginner.From the HyperSkill academy: ``` Everybody remembers this paper-and-pencil game from childhood: Tic-Tac-Toe, also known as Noughts and crosses or Xs and Os. A single mistake usually costs you the game, but thankfully it is simple enough that most players discover the best strategy quickly. Let’s program Tic-Tac-Toe and get playing! After finishing this project, you'll get to know a lot about planning and developing a complex program from scratch, using functions, handling errors, and processing user input.```
 
-> credit_calculator,annuity,hyperskill,jetbrains,argparse,args,sys,parser,principal,interest
+> Tags: tic tac toe, hyperskill, academy,jetbrains, python game,strategy, python functions, handling error, user inputs
 
 > Gifs and pictures are from Hyperskill's academy. I do not own them.
 
 ## Below is an example of the script's usage.
 
-![Demonstration](https://media.giphy.com/media/QXaktIFtVh9ugJ31iA/giphy.gif)
+![Demonstration](https://media.giphy.com/media/XGaVqhYfZUGMu8t4tN/giphy.gif)
 
 ## Example
 
 ```python
-# python credit_calc.py --type=diff --principal=500000 --periods=60 --interest=10
+# You just insert the coordinates. The X starts always first. The coordinates must be at this format: 1 1, 1 2. With the 1 1 being the cell at the left bottom corner.
 ---
 ```
 
 ### Setup
 
-- You need to import the "argparse" module. (Included in the code)
+- You dont need anything special to run this script.
 
 
 ## Features
 
-The script displays errors at the following situations:
-- You cannot enter negative values.
-- You must always input 4 variables (including type)
-- You must always input interest. The script can not calculate it.
-- Differentiated payments doesn't require a "monthly payment". So this input combination will yield to an error.
-- Annuity payments must have 3 variables known and 1 unknown. It could be either principal, periods of payment, monthly payment.
+The script provides the normal features of a tic tac toe game:
+- 2 players can play 
+- The script understands if a cell is occupied and provides the appropriate message.
+- The script terminates the game when a winner is found and displays a message.
+- Also it can find out if there is a draw (typicall outcome of this game).
 
 ## FAQ
 
-- **What types does the script support?**
-    - It supports "--type=diff" and "--type=annuity". If you enter anything else (or leave it blank) it will print an error.
+- **How can 2 people play this game?**
+    - You can upload the script to an online python compiles like "replit" and invite your friend or you can play it from one PC.
     
 - **How many variables do I have to input?**
-    - You must always input 4 variables (including type). Anything else will yield to an error.
-
-- **Can you explain the variables?**
-    Later one I will add a "helpme" but for now:
-     - Periods = Months that you are willing to pay for this principal
-     - Principal = the amount of money that you have to repay.
-     - Interest = Annual interest of your bank (insert it in decimal. example: 2% interest: --interest=2)
-     - Payment = Monthly payment that you are willing to pay.
-
----
-
-## Support
-
-
-Reach out to me at one of the following places!
-
-
----
-
-## Donations (Optional)
-
-
-
+    - You must input everytime the coordinates of the cell you are willing to put a symbol. 1 1 is the cell at the left bottom corner.
 
 ---
 
