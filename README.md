@@ -1,15 +1,14 @@
-# Crecit Calculator
+# Hyperskill - Jetbrains Academy
 
-> This credit calculator is a HyperSkill Academy project. Quoting from their site "Finance is an important part of the life of any people. Sometimes you think about getting additional income and want to open a deposit account. And sometimes you need additional money right now and want to take a credit or mortgage. Anyway, you may want to calculate different financial indicators to make a decision. Let’s make such an instrument that can help us."
-So this is about a credit calculator that works from a command window through argparse and can calculate annual payments and differentiated payments.
+> This repository is about HyperSkill academy and specifically the one that involves the "Track: Python Developer". It consists of numerous projects that reflect to the real world. It is not just a python tutorial site, it goes way further in the progress of learning to code properly. With HyperSkill academy you can learn how to write efficient, easy to read and powerfull code using all kind of libraries and new things around python.
 
-> credit_calculator,annuity,hyperskill,jetbrains,argparse,args,sys,parser,principal,interest
+> Tags: hyperskill,jetbrains,academy,projects,pycharm,python,tutorial,python developer
 
 > Gifs and pictures are from Hyperskill's academy. I do not own them.
 
-## Below is an example of the script's usage.
+## A brief description for the Python Developer track from Hyperskill:
 
-![Demonstration](https://media.giphy.com/media/QXaktIFtVh9ugJ31iA/giphy.gif)
+!(https://snipboard.io/JOwohg.jpg)
 
 ## Example
 
