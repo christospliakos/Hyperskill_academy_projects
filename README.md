@@ -1,5 +1,7 @@
 # Hyperskill - Jetbrains Academy
 
+> testing github local desktop ap
+
 > This repository is about HyperSkill academy and specifically the one that involves the "Track: Python Developer". It consists of numerous projects that reflect to the real world. It is not just a python tutorial site, it goes way further in the progress of learning to code properly. With HyperSkill academy you can learn how to write efficient, easy to read and powerfull code using all kind of libraries and new things around python.
 
 > Tags: hyperskill,jetbrains,academy,projects,pycharm,python,tutorial,python developer
