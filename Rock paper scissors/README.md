@@ -10,7 +10,7 @@ Learning Outcomes: ```A playable Rock-Paper-Scissors game, with a Player vs Comp
 
 ## Below is an example of the script's usage.
 
-![Hangman Demonstration](https://stepik.org/media/attachments/lesson/255033/demonstration.mp4)
+![Hangman Demonstration](https://media.giphy.com/media/U57A2hYmhVy6Tk4B01/giphy.gif)
 
 ## Example
 
@@ -36,7 +36,7 @@ The script has the following features:
 
 ## FAQ
 
-- **How is the score calculates???**
+- **How is the score calculated???**
     - Draw is 50 points, Win is 100 points and you dont lose points at loses.
 ---
 
