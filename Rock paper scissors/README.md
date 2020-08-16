@@ -1,49 +1,43 @@
 # Rock Paper Scissors
 
-> This project is about a very simple and classic game, the hangman! It is one of the best project for beginners and one of the funniest to code. From HyperSkill Academy: ```Games can help you kill time when you’re bored. But before smartphones, people played games the classic way – with paper and pencil. Let’s recreate one such game and improve your programming skills in the process. In this project, you will code Hangman, a game where the player has to guess a word, letter by letter, in a limited number of attempts. Make a program that plays Hangman with you – and good luck with the guessing!
-Best project for Python Basics: uses functions, loops, lists, and other variables. The Random module is a cherry on top. Don’t be intimidated by the number of stages – they ensure that your immersion in Python is smooth and safe.```
+> This project is about a very simple and classic game, the rock-paper-scissors but it is an alterred version!You can play against the PC. The user can make his own version of the game very easily as we will explain below.
+From Hyperskill academy website: ```If you’ve ever wanted to create games, this project will get you started! In this project you will code a Rock-Paper-Scissors-Lizard-Spock game, a more advanced version of Rock-Paper-Scissors, which can be played against the computer.```
+Learning Outcomes: ```A playable Rock-Paper-Scissors game, with a Player vs Computer mode. Practice using arrays, the Random library, formatted strings, and algorithms.```
 
-> Tags: hyperskill,jetbrains,academy,projects,pycharm,python,hangman,game,loops,functions,random,hanged
+> Tags: hyperskill,jetbrains,academy,projects,pycharm,python,rock-paper-scissors,game
 
 > Gifs and pictures are from Hyperskill's academy. I do not own them.
 
 ## Below is an example of the script's usage.
 
-![Hangman Demonstration](https://media.giphy.com/media/ekjqtwMuhpJOsPH83W/giphy.gif)
+![Hangman Demonstration](https://stepik.org/media/attachments/lesson/255033/demonstration.mp4)
 
 ## Example
 
 ```python
-# You can just run the script and start guessing the correct word.
+# You can just run the script and follow the instruction of the program
 ---
 ```
 
 ### Setup
 
 - You need to import the "random" module. (Included in the code)
-- You need to modify/add words at the word list!
-
 
 ## Features
 
 The script has the following features:
-- Provides a flexible word list that you can easily modify and add/remove words.
-- It gives you the opportunity to guess 8 times before you are hanged! (You can modify that also).
-- Displays the appropriate errors whenever you guess a wrong letter.
-- It doesnt allow you to guess a wrong/same letter a second time.
+- Asks the user about his name and provides a greeting message.
+- The game asks the user if he wants to make his own game. You can leave it blank and you will play the classic version, else you can add some of these option:
+	- ["fire", "rock", "gun", "lightning", "devil", "dragon", "water", "air", "paper",
+                   "sponge", "wolf", "tree", "human", "snake", "scissors"]
+- The script creates a file with the score every time you play the game. It stores the score and you can ask for your rating.
+- Possible commands !exit for exit and !rating for your rating.
+- The algorithm splits the game list (all possible options) into 2 halves, one after the user selection and one before his selection. The options after, beat the user.
 
 ## FAQ
 
-- **How many words can I import??**
-    - Theoretically, infinite words can be fitted in the word list. A wise choice could be to use a word dictionary and import words from there.
-    
-- **How many letters can I guess before I get hanged?**
-    - You can guess 8 wrong different letters.
-
-- **How can I hide the word list from the code?**
-	- You can make a second .py script with the word list only and import it in the main script.
-	- You can make the script run with sys arguments from a command prompt and avoid any interraction between player and python script.
-
+- **How is the score calculates???**
+    - Draw is 50 points, Win is 100 points and you dont lose points at loses.
 ---
 
 ## Support
