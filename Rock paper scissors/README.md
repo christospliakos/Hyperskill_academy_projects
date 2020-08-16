@@ -36,7 +36,7 @@ The script has the following features:
 
 ## FAQ
 
-- **How is the score calculates???**
+- **How is the score calculated???**
     - Draw is 50 points, Win is 100 points and you dont lose points at loses.
 ---
 
